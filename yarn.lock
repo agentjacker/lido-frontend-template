@@ -1885,10 +1885,10 @@
   resolved "https://registry.yarnpkg.com/@lidofinance/next-api-wrapper/-/next-api-wrapper-0.7.0.tgz#379519c96f7a2a39bda00daf0d166996e8d19b02"
   integrity sha512-ZbNnE9vc2NQtlXcyn4zafWxHSmJnia9LVQsAsJNXVeoHqFpo7jFteGzRPpwOsns2RmGy9jMCwFaSregJA4KKcg==
 
-"@lidofinance/next-cache-files-middleware@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@lidofinance/next-cache-files-middleware/-/next-cache-files-middleware-0.7.0.tgz#70aaa7384baa4746a8e1aa540c9ac0b4f952e622"
-  integrity sha512-F9I20eNxWvvGqBS2XM42WcUXSMtg9l69R5ffNAellyBAwl1uAqQ4G59e8U/o8Il4BmOK3uc7rMIESyzx3hIuIg==
+"@lidofinance/next-cache-files-middleware@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@lidofinance/next-cache-files-middleware/-/next-cache-files-middleware-0.13.0.tgz#a38f73c8fb843b5a31574f95e061ef021d4a116e"
+  integrity sha512-yFD0YeK8eTUdIKi4DUPOP7KfHK/Wku3pLZYS7xNJsHAr0yT3bNG0A3UFUTalCQc4XA7pmYaZzzVBZIoGCyZiYA==
 
 "@metamask/safe-event-emitter@2.0.0", "@metamask/safe-event-emitter@^2.0.0":
   version "2.0.0"
