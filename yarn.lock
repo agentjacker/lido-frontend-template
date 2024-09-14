@@ -1864,20 +1864,18 @@
   resolved "https://registry.yarnpkg.com/@lidofinance/analytics-matomo/-/analytics-matomo-0.9.0.tgz#94d19003fce72692f3947833fc7645dc28502cdf"
   integrity sha512-k0Rj2uVU711MxkpSX/vVJJR4uDaZUIYUnCfCzaYNW0KC9J8lt/Q1D4BqwZ4xnA7I5CokAz8kKjKNpMGfxyxwBg==
 
-"@lidofinance/lido-ui@^3.0.0-next.17":
-  version "3.0.0-next.17"
-  resolved "https://registry.yarnpkg.com/@lidofinance/lido-ui/-/lido-ui-3.0.0-next.17.tgz#086ddfde1a5da3c55e420f524a51aeda82952ba0"
-  integrity sha512-HNmA2QxXMQo97yjShDz1LRssHvzBpLuTGaieCA5bkClA+3bNMhtzEF9OQOPJKq37jF4hvYYFbhlTRu9ahhoGQw==
+"@lidofinance/lido-ui@^3.7.0":
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/@lidofinance/lido-ui/-/lido-ui-3.26.1.tgz#9be0b506fb7e7f1a9ed7f928f2ff7bf37daa6afa"
+  integrity sha512-20gMnNI/SxMtrgFRupHvMOY+WtT9ZIjEGkzj9QpJ7mDYiz0GF5nAFjbOB5Z3vaYBSwkcHIvecNE5L3P2ei9UvQ==
   dependencies:
     "@styled-system/should-forward-prop" "5.1.5"
-    "@swc/helpers" "^0.4.11"
-    "@swc/plugin-styled-components" "^1.2.10"
     react-collapsed "3.0.2"
     react-jazzicon "^1.0.4"
     react-toastify "7.0.4"
     react-transition-group "4"
     styled-system "5.1.5"
-    ua-parser-js "^1.0.2"
+    ua-parser-js "^1.0.35"
     use-callback-ref "1.2.5"
 
 "@lidofinance/next-api-wrapper@^0.7.0":
@@ -2277,17 +2275,12 @@
     "@svgr/plugin-jsx" "^6.5.1"
     "@svgr/plugin-svgo" "^6.5.1"
 
-"@swc/helpers@0.4.14", "@swc/helpers@^0.4.11":
+"@swc/helpers@0.4.14":
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
   integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
   dependencies:
     tslib "^2.4.0"
-
-"@swc/plugin-styled-components@^1.2.10":
-  version "1.5.29"
-  resolved "https://registry.yarnpkg.com/@swc/plugin-styled-components/-/plugin-styled-components-1.5.29.tgz#374e07a7b457807bd416285191ac85d2e1a6ea1d"
-  integrity sha512-wH4N5kuXqf0IeAeC4sz/x8+wUrdg93EdbIULUtoq/76J89jFpeurAta4x2yFFzk3IBoM+8S2SlQxKrgUmp42og==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -6776,12 +6769,12 @@ react-collapsed@3.0.2:
     raf "^3.4.1"
     tiny-warning "^1.0.3"
 
-react-device-detect@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-2.2.2.tgz#dbabbce798ec359c83f574c3edb24cf1cca641a5"
-  integrity sha512-zSN1gIAztUekp5qUT/ybHwQ9fmOqVT1psxpSlTn1pe0CO+fnJHKRLOWWac5nKxOxvOpD/w84hk1I+EydrJp7SA==
+react-device-detect@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-2.2.3.tgz#97a7ae767cdd004e7c3578260f48cf70c036e7ca"
+  integrity sha512-buYY3qrCnQVlIFHrC5UcUoAj7iANs/+srdkwsnNjI7anr3Tt7UY6MqNxtMLlr0tMBied0O49UZVK8XKs3ZIiPw==
   dependencies:
-    ua-parser-js "^1.0.2"
+    ua-parser-js "^1.0.33"
 
 react-dom@^18.2.0:
   version "18.2.0"
@@ -7943,10 +7936,10 @@ ua-parser-js@1.0.2:
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.2.tgz#e2976c34dbfb30b15d2c300b2a53eac87c57a775"
   integrity sha512-00y/AXhx0/SsnI51fTc0rLRmafiGOM4/O+ny10Ps7f+j/b8p/ZY11ytMgznXkOVo4GQ+KwQG5UQLkLGirsACRg==
 
-ua-parser-js@^1.0.2:
-  version "1.0.32"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.32.tgz#786bf17df97de159d5b1c9d5e8e9e89806f8a030"
-  integrity sha512-dXVsz3M4j+5tTiovFVyVqssXBu5HM47//YSOeZ9fQkdDKkfzv2v3PP1jmH6FUyPW+yCSn7aBVK1fGGKNhowdDA==
+ua-parser-js@^1.0.33, ua-parser-js@^1.0.35:
+  version "1.0.39"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.39.tgz#bfc07f361549bf249bd8f4589a4cccec18fd2018"
+  integrity sha512-k24RCVWlEcjkdOxYmVJgeD/0a1TiSpqLg+ZalVGV9lsnr4yqu0w7tX/x2xX6G4zpkgQnRf89lxuZ1wsbjXM8lw==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
